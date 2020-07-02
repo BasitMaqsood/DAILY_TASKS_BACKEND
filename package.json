@@ -1,0 +1,53 @@
+{
+  "name": "task-api",
+  "version": "1.0.0",
+  "description": "Daily Task Application Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "SET NODE_ENV=development && nodemon --exec babel-node --inspect index.js",
+    "prod": "SET NODE_ENV=production && node index.js",
+    "test": "SET NODE_ENV=test&& node index.js",
+    "staging": "SET NODE_ENV=staging && node index.js"
+  },
+  "engines": {
+    "node": "10.15.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BasitMaqsood/DAILY_TASKS_BACKEND.git"
+  },
+  "author": "Basit Maqsood",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "config": "^3.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-async-errors": "^3.1.1",
+    "fs-extra": "^7.0.1",
+    "helmet": "^3.21.1",
+    "ip": "^1.1.5",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.4.3",
+    "multer": "^1.4.1",
+    "nodemon": "^1.19.4",
+    "path": "^0.12.7",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4",
+    "twilio": "^3.43.0",
+    "winston": "^3.1.0",
+    "winston-mongodb": "^4.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6"
+  }
+}

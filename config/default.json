@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "nikist_jwtPrivateKey",
+  "db": "mongodb://localhost/daily_tasks"
+}

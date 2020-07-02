@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "daily_tasks_jwtPrivateKey",
+  "db": "mongodb://localhost/daily_tasks"
+}
